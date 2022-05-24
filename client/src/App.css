@@ -43,58 +43,58 @@
 }
 
 .todo-listItems {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .todo-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .item-content {
-  width: 60%;
+    width: 60%;
 }
 
 .todo-item button {
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
 }
 
 .todo-item button:focus {
-  outline: none;
+    outline: none;
 }
 
 .update-item {
-  background-color: goldenrod;
-  color: #fff;
+    background-color: goldenrod;
+    color: #fff;
 }
 
 .delete-item {
-  background-color: red;
-  color: #fff;
+    background-color: red;
+    color: #fff;
 }
 
 .update-form {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .update-new-input {
-  width: 80%;
-  border-radius: 6px;
-  border: 1px solid #eee;
-  outline: none;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    outline: none;
 }
 
 .update-new-btn {
-  background-color: darkorchid;
-  color: #fff;
-  cursor: pointer;
+    background-color: darkorchid;
+    color: #fff;
+    cursor: pointer;
 }
